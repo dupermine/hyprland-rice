@@ -1,2 +1,1 @@
-# hyprland-rice
-my rice
+![Uploading изображение.png…]()
