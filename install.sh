@@ -2,7 +2,7 @@
 
 set -e
 
-sudo pacman -S --needed --noconfirm swww waybar
+sudo pacman -S --needed --noconfirm awww waybar wofi
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
@@ -14,12 +14,12 @@ for dir in "$SCRIPT_DIR"/*; do
     fi
 done
 
-swww init || true
-swww img "$SCRIPT_DIR/wallpaper.jpg"#!/bin/bash
+awww init || true
+awww img "$SCRIPT_DIR/wallpaper.jpg"#!/bin/bash
 
 set -e
 
-sudo pacman -S --needed --noconfirm swww waybar
+sudo pacman -S --needed --noconfirm awww waybar
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
